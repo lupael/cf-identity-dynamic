@@ -1,6 +1,6 @@
 name = "identity-dynamic"
-account_id = ""
-workers_dev = false
+account_id = "2f98f7efc7ce5b68a1943c1d8b54de3c"
+workers_dev = true
 compatibility_date = "2024-11-25"
 main = "src/main.js"
 
@@ -17,7 +17,7 @@ id = "" # unique ID of the previously created namespace
 
 [vars]
 # - BEARER_TOKEN (Defined with wrangler secret put)
-CORS_ORIGIN = "https://lupael.workers.dev/debug" # This should be the route pattern domain /debug (https://lupael.workers.dev/debug)
+CORS_ORIGIN = "https://identity-dynamic.lupael.workers.dev/debug" # This should be the route pattern domain /debug (https://lupael.workers.dev/debug)
 ACCOUNT_ID = "2f98f7efc7ce5b68a1943c1d8b54de3c"
 ORGANIZATION_ID = ""
 ORGANIZATION_NAME = "i4E"
