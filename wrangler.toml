@@ -17,10 +17,10 @@ id = "" # unique ID of the previously created namespace
 
 [vars]
 # - BEARER_TOKEN (Defined with wrangler secret put)
-CORS_ORIGIN = "" # This should be the route pattern domain /debug (https://example.com/debug)
-ACCOUNT_ID = ""
+CORS_ORIGIN = "https://lupael.workers.dev/debug" # This should be the route pattern domain /debug (https://lupael.workers.dev/debug)
+ACCOUNT_ID = "2f98f7efc7ce5b68a1943c1d8b54de3c"
 ORGANIZATION_ID = ""
-ORGANIZATION_NAME = ""
+ORGANIZATION_NAME = "i4E"
 DEBUG = "true"
 TARGET_GROUP = "" # Define the "special group" that you want to use for notification
 
